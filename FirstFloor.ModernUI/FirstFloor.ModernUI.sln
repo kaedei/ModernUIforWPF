@@ -15,7 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "License", "License", "{2AC3
 		License.Icons.txt = License.Icons.txt
 		License.RelativeAnimatingContentControl.txt = License.RelativeAnimatingContentControl.txt
 		License.txt = License.txt
-		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
 Global
