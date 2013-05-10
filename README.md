@@ -1,6 +1,6 @@
-ModernUIforWPF
+Modern UI for WPF ï¼ˆä¸­æ–‡ä¼˜åŒ–ï¼‰
 ==============
-
+```
 A fork from Modern UI for WPF on Codeplex.com(https://mui.codeplex.com/)
 
 
@@ -8,23 +8,26 @@ Changes:
 
 -Changed default target platform to .NET 4.0
 
--Changed default font and font size for display Chinese character well
+-Changed default font and font size for displaying Chinese characters well
 
 -Removed FirstFloor.ModernUI.WPF4 project
 
 -Removed [Build] folder
+```
 
+```
+ç§»æ¤è‡ªCodeplex.comä¸Šçš„Modern UI for WPFé¡¹ç›®(https://mui.codeplex.com/)
 
+æ”¹åŠ¨:
 
-ÒÆÖ²×ÔCodeplex.comÉÏµÄModern UI for WPFÏîÄ¿(https://mui.codeplex.com/)
+-é»˜è®¤çš„ç›®æ ‡å¹³å°æ›´æ”¹ä¸º.NET 4.0
 
+-æ›´æ”¹äº†ä¸€äº›é»˜è®¤å­—ä½“å€¼ã€å­—ä½“å¤§å°ï¼Œæ˜¾ç¤ºä¸­æ–‡æ—¶å˜å¾—æ›´æ¸…æ™°
 
-¸Ä¶¯:
+-ç§»é™¤åŸé¡¹ç›®ä¸­çš„WPF4é¡¹ç›®
 
--Ä¬ÈÏµÄÄ¿±êÆ½Ì¨¸ü¸ÄÎª.NET 4.0
+-ç§»é™¤åŸé¡¹ç›®ä¸­çš„Buildç›®å½•
+```
 
--¸ü¸ÄÁËÒ»Ğ©Ä¬ÈÏ×ÖÌåÖµ¡¢×ÖÌå´óĞ¡£¬ÏÔÊ¾ÖĞÎÄÊ±±äµÃ¸üÇåÎú
-
--ÒÆ³ıÔ­ÏîÄ¿ÖĞµÄWPF4ÏîÄ¿
-
--ÒÆ³ıÔ­ÏîÄ¿ÖĞµÄBuildÄ¿Â¼
+P.S.
+æ¬¢è¿æ¥æˆ‘çš„åšå®¢è®¨è®º( http://blog.sina.com.cn/kaedei )
