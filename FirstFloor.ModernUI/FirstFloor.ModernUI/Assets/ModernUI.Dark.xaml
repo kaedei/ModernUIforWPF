@@ -98,8 +98,8 @@
     <SolidColorBrush x:Key="SliderThumbBorderDragging" Color="{DynamicResource AccentColor}" />
     <SolidColorBrush x:Key="SliderThumbBorderHover" Color="#919191" />
     <SolidColorBrush x:Key="SliderThumbBorderDisabled" Color="#333333" />
-    <SolidColorBrush x:Key="SliderTrackBackground" Color="#333333" />
-    <SolidColorBrush x:Key="SliderTrackBorder" Color="#333333" />
+    <SolidColorBrush x:Key="SliderTrackBackground" Color="#555555" />
+    <SolidColorBrush x:Key="SliderTrackBorder" Color="#555555" />
     <SolidColorBrush x:Key="SliderTick" Color="#717171" />
     <SolidColorBrush x:Key="SliderTickDisabled" Color="#333333" />
 

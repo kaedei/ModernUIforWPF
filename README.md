@@ -6,9 +6,9 @@ A fork from Modern UI for WPF on Codeplex.com(https://mui.codeplex.com/)
 
 Changes:
 
--Changed default target platform to .NET 4.0
+-Default target platform changed to .NET 4.0
 
--Changed default font and font size for display Chinese character well
+-Changed default font and font size for optimizing Chinese characters displaying
 
 -Removed FirstFloor.ModernUI.WPF4 project
 

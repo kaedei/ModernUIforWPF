@@ -61,8 +61,8 @@
 
     <Style x:Key="SystemButtonLink" TargetType="ButtonBase" BasedOn="{StaticResource SystemButton}" >
         <!--<Setter Property="FontFamily" Value="Segoe UI" />-->
-        <Setter Property="FontFamily" Value="Microsoft YaHei" />
-        <Setter Property="FontSize" Value="11" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+        <Setter Property="FontSize" Value="12" />
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="Template">
             <Setter.Value>

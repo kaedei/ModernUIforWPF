@@ -24,7 +24,7 @@
 
                         <Grid.RowDefinitions>
                             <RowDefinition Height="40" />
-                            <RowDefinition Height="16" />
+                            <RowDefinition Height="18" />
                         </Grid.RowDefinitions>
 
                         <ListBox ItemsSource="{TemplateBinding VisibleLinkGroups}"
@@ -78,7 +78,7 @@
                                     <!--<Setter Property="FontFamily" Value="Segoe UI" />-->
                                     <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
                                     <Setter Property="Foreground" Value="{DynamicResource SubMenuText}" />
-                                    <Setter Property="FontSize" Value="11"/>
+                                    <Setter Property="FontSize" Value="12"/>
                                     <Setter Property="Margin" Value="0,0,12,0" />
                                     <Setter Property="HorizontalContentAlignment" Value="Center" />
                                     <Setter Property="VerticalContentAlignment" Value="Center" />

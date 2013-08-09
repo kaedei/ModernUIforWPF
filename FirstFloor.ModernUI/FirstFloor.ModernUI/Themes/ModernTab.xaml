@@ -21,7 +21,7 @@
                             <ListBox.ItemContainerStyle>
                                 <Style TargetType="ListBoxItem">
                                     <Setter Property="FocusVisualStyle" Value="{x:Null}" />
-                                    <Setter Property="FontFamily" Value="Segoe UI" />
+                                    <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
                                     <Setter Property="Foreground" Value="{DynamicResource MenuText}" />
                                     <Setter Property="FontSize" Value="15"/>
                                     <Setter Property="FontWeight" Value="Bold" />
@@ -86,7 +86,7 @@
                                     <ListBox x:Name="LinkList" ItemsSource="{TemplateBinding Links}">
                                         <ListBox.ItemTemplate>
                                             <DataTemplate>
-                                                <TextBlock Text="{Binding DisplayName, Converter={StaticResource ToUpperConverter}}" Margin="10,2,2,2" FontSize="{DynamicResource SmallFontSize}" TextTrimming="CharacterEllipsis" />
+                                                <TextBlock Text="{Binding DisplayName, Converter={StaticResource ToUpperConverter}}" Margin="10,2,2,2" FontSize="12" TextTrimming="CharacterEllipsis" />
                                             </DataTemplate>
                                         </ListBox.ItemTemplate>
                                     </ListBox>

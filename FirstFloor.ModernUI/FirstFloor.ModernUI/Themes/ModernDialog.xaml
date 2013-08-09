@@ -29,9 +29,10 @@
                     <Border Background="{DynamicResource WindowBackground}" Margin="{Binding Source={x:Static shell:SystemParameters2.Current}, Path=WindowNonClientFrameThickness}">
                         <Grid>
                             <Border BorderBrush="{DynamicResource WindowBorder}" BorderThickness="1">
-                                <Grid>
-                                    <!-- window background content -->
-                                    <ContentControl Content="{TemplateBinding BackgroundContent}" />
+                                <AdornerDecorator>
+                                    <Grid>
+                                        <!-- window background content -->
+                                        <ContentControl Content="{TemplateBinding BackgroundContent}" />
 
                                     <!-- top blob -->
                                     <Canvas>
@@ -64,8 +65,9 @@
                                             </ItemsControl.ItemsPanel>
                                         </ItemsControl>
 
+                                        </Grid>
                                     </Grid>
-                                </Grid>
+                                </AdornerDecorator>
                             </Border>
                             <Border BorderBrush="{DynamicResource WindowBorderActive}" BorderThickness="1" Visibility="{Binding IsActive, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Converter={StaticResource BooleanToVisibilityConverter}}" />
                         </Grid>
